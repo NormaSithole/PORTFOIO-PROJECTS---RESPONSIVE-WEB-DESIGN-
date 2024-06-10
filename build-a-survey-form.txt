@@ -1,0 +1,81 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>CAKE ORDER PREFERENES SURVEY</title>
+  <Link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">CAKE ORDER PREFERENCE SURVEY</h1>
+<p id= "description">This is a short survey to understand your cake preferences better</p>
+
+<form id="survey-form">
+<label id="name-label" for="name">What's your name:</label><br><input id="name" type="text" name="name" placeholder="Please enter your name" required><br>
+<label id="email-label" for="email">What's your Email:</label><br>
+<input id="email" type="email" name="email" placeholder="Enter your email" required><br>
+<label id="number-label" for="number">How old are you:</label><br>
+<input id="number" type="number" name="age" placeholder="Enter your age" min="1" max="100" required><br>
+
+<p>What is your favourite cake flavour?</p>
+  <input type="radio" id="chocolate" name="flavor" value="chocolate">
+<label for="chocolate">Chocolate<label><br>
+  <input type="radio" id="Oreo" name="flavor" value="Oreo">
+<label for="Oreo">Oreo<label><br>
+<input type="radio" id="Vanilla" name="flavor" value="Vanilla">
+<label for="Vanilla">Vanilla<label><br>
+<input type="radio" id="red-velvet" name="flavor" value="red-velvet">
+<label for="red-velevt">Red Velvet<label><br>
+<input type="radio" id="Carrot" name="flavor" value="Carrot">
+<label for="Carrot">Carrot<label><br>
+<label for="Other-flavour">Other-Flavour<label><br>
+<input type="text" id="Other-flavour" name="flavor" placeholder="Please Specify">
+
+
+<p> What frosting would you like on your cake?</p>
+<input type="radio" id="buttercream" name="frosting" value="buttercream">
+<label for="buttercream">Buttercream</label><br>
+<input type="radio" id="whipped-cream" name="frosting" value="whipped-cream">
+<label for="whipped-cream">Whipped Cream</label><br>
+<input type="radio" id="fondant" name="frosting" value="fondant">
+<label for="fondant">Fondant</label><br>
+<label for="Other">Other Frosting</label><br>
+<input type="text" id="Other" name="frosting" placeholder="Please Specify" maxlength="50">
+
+<p>Do you have any special dietary restrictions?</p>
+<select id="dropdown" name = "dropdown">
+  <option value="gluten-free">Gluten Free</option>
+  <option value="Vegan">Vegan</option>
+  <option value="No-Nuts">No Nuts</option>
+  <option value="none">None</option>
+  <option value="Other">Other</option>
+  </select><br><br>
+
+<p>For what occasions do you typically order cakes?</p>
+<input type="checkbox" id="birthdays" name="occasion" value="birthdays">
+<label for="birthdays">Birthdays</label><br>
+<input type="checkbox" id="weddings" name="occasion" value="weddings">
+<label for="weddings">Weddings</label><br>
+<input type="checkbox" id="anniversaries" name="occasion" value="anniversaries">
+<label for="anniversaries">Anniversaries</label><br>
+<input type="checkbox" id="other" name="occasion" value="other">
+<label for="other">Other</label><br><br>
+
+<label for="bio">Provide a bio:</label><br>
+<textarea id="bio" name="bio" placeholder="Tell us about yourself"></textarea><br>
+
+<input id="submit" type="submit" value="submit">
+
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
