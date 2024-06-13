@@ -1,0 +1,63 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute to Dr. Maya Angelou</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Dr. Maya Angelo</h1>
+<div id="img-div"> 
+    <figcaption id="img-caption"> This is a picture of Maya Angelo </figcaption> 
+    <img id="image" src="C:\Users\norma\Downloads\maya_angelou_photo_by_deborah_feingold_corbis_entertainment_getty_533084708.jpg" alt="Picture of Maya Angelo">
+    </img> 
+</div>
+        
+<p id="tribute-info">
+Maya Angelou, born Marguerite Annie Johnson on **April 4, 1928**, in St. Louis, Missouri, overcame immense challenges to become an influential figure. Here's a glimpse into her remarkable journey<br><br>
+
+Early Life and Trauma:<br><br>
+Angelou spent much of her childhood in rural Stamps, Arkansas, under the care of her paternal grandmother. At the age of eight, she experienced a traumatic event: she was raped by her mother's boyfriend. After revealing the incident, he was murdered.
+The trauma left her almost completely mute for several years<br><br>
+
+Autobiographical Works<br><br>
+Her first autobiographical work, "I Know Why the Caged Bird Sings"(1969), gained critical acclaim and a National Book Award nomination. It covers her life up to age 17.
+Subsequent volumes include "Gather Together in My Name," "Singin’ and Swingin’ and Gettin’ Merry Like Christmas," "The Heart of a Woman," and more<br><br>
+
+Career and Achievements<br><br>
+Angelou's diverse career spanned singing, dancing, journalism, civil rights activism, and writing.
+She received numerous accolades, including the Presidential Medal of Freedom (2011) and multiple Grammy Awards for her spoken word albums
+
+Maya Angelou's resilience and powerful voice continue to inspire generations.</p>
+
+<a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Maya_Angelou">Learn more about the amazing Maya Angelo</a>
+
+        </main>
+    </body>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+** end of undefined **
+
